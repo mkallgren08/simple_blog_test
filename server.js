@@ -1,8 +1,8 @@
 require('dotenv').config()
 const express = require("express");
 const cors = require("cors")
-const axios = require("axios")
 const mongoose = require("mongoose")
+const routes=require("./routes")
 // Declare a variable or static port number
 const PORT = process.env.PORT || 3001;
 
@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(routes)
 app.listen(PORT, function() {
 	console.log(`Backend has booted ==> Server is now running on port ${PORT}!`);
 });

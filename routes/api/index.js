@@ -1,9 +1,10 @@
 const router = require("express").Router();
 const exampleRoutes = require('./examples.js')
-const userRoutes = require('./user.js')
+const blogRoutes = require('./blogs.js');
 
 //  routes
 router.use("/example",exampleRoutes)
-router.use("/user",userRoutes);
+router.use("/blogs",blogRoutes)
+router.get("/api",(req, res) => {res.json("Hello API")})
 
 module.exports = router;
