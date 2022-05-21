@@ -9,4 +9,4 @@
     - Overall imporvements for the site. There are certainly rough edges but I am excited for being guided through improvements!
 
 # Important Note: #
- I stopped coding at 20:02 EST on 5/20/22, the time afterwards was spent updating the README and zipping the files. Thank you for your understanding!
+ I stopped coding at 20:02 EST on 5/20/22, the time afterwards was spent updating the README and zipping the files. Thank you for your understanding!+
